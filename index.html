@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📋To Do List🎈</title>
+    <link href="src/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>📋To Do List📋</h1>
+    <div class="weather">
+      <span class="js-weather"></span>
+    </div>
+    <div class="js-clock clock">
+      <h2></h2>
+    </div>
+    <div class="formBox">
+      <form class="js-nameForm form">
+        <input type="text" placeholder="당신의 이름을 입력해 주세요." />
+      </form>
+    </div>
+    <div class="js-greetings">
+      <h4 class="greetings"></h4>
+    </div>
+    <div class="formBox">
+      <form id=js-toDoform>
+        <input type="text" placeholder="할 일을 입력해 주세요.">
+      </form>
+    </div>
+    <div>
+      <h3 class="pending">Pending</h3>
+      <ul id=js-pending class="toDoText"></ul>
+    </div>
+    <div>
+      <h3 class="finished">Finished</h3>
+      <ul id="js-finished" class="toDoText"></ul>
+    </div>
+    <script src="src/clock.js"></script>
+    <script src="src/greetings.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/bg.js"></script>
+  </body>
+
+</html>
